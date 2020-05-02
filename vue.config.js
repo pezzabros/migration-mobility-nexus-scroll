@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/migration-mobility-nexus-scroll/'
+  publicPath: '/migration-mobility-nexus-scroll/dist/'
 }
