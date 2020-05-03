@@ -2,7 +2,7 @@
   <div id="app">
     <div class="intro">
       <h1>The Migration-Mobility Nexus</h1>
-      <div class="authors">Lorenzo Piccoli and Matteo Gianni - <i>University of Neuchâtel and University of Geneva</i></div>
+      <div class="authors"><i>University of Neuchâtel and University of Geneva</i></div>
       <!--<p-
         The Migration-MobiliObserve the interaction between different ways to describe human movementty Nexus is an analytical tool to:
         <ul>
