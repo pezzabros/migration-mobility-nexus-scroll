@@ -2,8 +2,8 @@
   <div id="app">
     <div class="intro">
       <h1>The Migration-Mobility Nexus</h1>
-      <div class="authors"><i>University of Neuchâtel and University of Geneva</i></div>
-      <!--<p-
+      <!--<div class="authors"><i>University of Neuchâtel and University of Geneva</i></div>
+      <p-
         The Migration-MobiliObserve the interaction between different ways to describe human movementty Nexus is an analytical tool to:
         <ul>
           <li>Explain how this interaction provides meaning to social and political phenomena</li>
