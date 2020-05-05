@@ -28,6 +28,8 @@
       But there is not one single definition of migration and mobility that all our researchers use or should use. In fact, the very definition depends upon the epistemological approach our researchers have chosen to follow to address their own particular question. 
       <br/><br/>
       Instead, it is precisely in avoiding postulating definitions from the outset that the heuristic power of the Nexus becomes relevant. It is through the analysis of different interplays between migration and mobility that specific definitions matter and fosters internally consistent researches.
+      <br/><br/>
+      We identified four types of interplay between different forms of human movement. Our projects address each one of them.
       </div>
       <div class="step" data-step-no="3">
         <h3>Continuum</h3>
@@ -44,7 +46,7 @@
         <div class="subtitle">Migration requires mobility, while mobility can lead to migration.
         </div>
         <div class="content">
-          Inclusive policies and voting rights reduce the propensity of non-citizens to change their residency [IP30–IP31–IP35] 
+          Inclusive policies and voting rights reduce the propensity of non-citizens to change their residency [IP30–IP31] 
           <br/><br/>Migration experiences can foster both internal mobility in the country and transnational business activities based on cross-border mobilities [IP23– IP32]
         </div>
       </div>
