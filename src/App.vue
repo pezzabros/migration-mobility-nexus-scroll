@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{'mobile' : isMobile}">
     <div class="intro">
       <h1>The Migration-Mobility Nexus</h1>
       <!--<div class="authors"><i>University of Neuchâtel and University of Geneva</i></div>
@@ -17,8 +17,8 @@
       @step-enter="({ element }) => (currStep = element.dataset.stepNo)"
     >
       <div class="step" data-step-no="1">
-        We live in a world on the move. Human movement, both within and across countries lies at the core of today’s social, economic and political life.  
-        <br/>Our work at the Nccr – on the move is borne out of the conviction that we should understand how these different forms of movement coexist, meet, overlap, and collide, through the Migration-Mobility Nexus.
+        We live in a world on the move. Human movement, both within and across countries lies at the core of today’s social, economic and political life.
+        <br/><br/>Our work at the Nccr – on the move is borne out of the conviction that we should understand how these different forms of movement coexist, meet, overlap, and collide, through the Migration-Mobility Nexus.
       </div>
       <div class="step" data-step-no="2">
         The Migration-Mobility Nexus works as a pair of lenses that one wears to make sense of a world in motion. It postulates a connection between different ways of framing human movement.
@@ -36,9 +36,9 @@
         <div class="subtitle">Fluid mobilities might gradually change into more stable forms of migration; and the other way around.
         </div>
         <div class="content">
-          Commercial commitments in trade agreements foster longer term migration, rather than temporary forms of mobility [IP24].
-          <br/><br/>The length of residency and the contributions that are required to benefit from the welfare state influence natives’ propensity to discriminate against migrants and movers [IP26–IP27].
-          <br/><br/>Recent changes in welfare policies have allowed individuals to move freely across countries of the Schengen area [IP22].
+          Commercial commitments in trade agreements foster longer term migration, rather than temporary forms of mobility [<a :href="getLink('IP24')" target="_blank">IP24</a>].
+          <br/><br/>The length of residency and the contributions that are required to benefit from the welfare state influence natives’ propensity to discriminate against migrants and movers [<a :href="getLink('IP26')" target="_blank">IP26</a>-<a :href="getLink('IP27')" target="_blank">IP27</a>].
+          <br/><br/>Recent changes in welfare policies have allowed individuals to move freely across countries of the Schengen area [<a :href="getLink('IP22')" target="_blank">IP22</a>].
         </div>
       </div>
       <div class="step" data-step-no="4">
@@ -46,8 +46,10 @@
         <div class="subtitle">Migration requires mobility, while mobility can lead to migration.
         </div>
         <div class="content">
-          Inclusive policies and voting rights reduce the propensity of non-citizens to change their residency [IP30–IP31] 
-          <br/><br/>Migration experiences can foster both internal mobility in the country and transnational business activities based on cross-border mobilities [IP23– IP32]
+          Inclusive policies and voting rights increase non-citizens’ sedentary ties with the context of residence [<a :href="getLink('IP30')" target="_blank">IP30</a>-<a :href="getLink('IP31')" target="_blank">IP31</a>].
+          <br/><br/>Migration experiences can foster both internal mobility in the country and transnational business activities based on cross-border mobilities [<a :href="getLink('IP23')" target="_blank">IP23</a>–<a :href="getLink('IP32')" target="_blank">IP32</a>].
+          <br/><br/>
+          The cross-border movement of people depends upon many other movements, for example that of asylum policies travelling from one polity to another polity [<a :href="getLink('IP35')" target="_blank">IP35</a>].
         </div>
       </div>
       <div class="step" data-step-no="5">
@@ -55,18 +57,18 @@
         <div class="subtitle">Migration and mobility are two mutually exclusive conceptions of movement.
         </div>
         <div class="content">
-          The mobility of undocumented migrants and refugees challenges and undermines migration regulations [IP26–IP28]
+          The mobility of undocumented migrants and refugees challenges and undermines migration regulations [<a :href="getLink('IP26')" target="_blank">IP26</a>–<a :href="getLink('IP28')" target="_blank">IP28</a>].
         </div>
       </div>
       <div class="step" data-step-no="6">
         <h3>Hierarchy</h3>
-        <div class="subtitle">Migration and mobility are political categories that legitimize hierarchies of movement
+        <div class="subtitle">Migration and mobility are political categories that legitimize hierarchies of movement.
         </div>
         <div class="content">
-          Temporary commercial mobility commitments in trade agreements may create privileges and disadvantages compared to traditional migration [IP24] 
-          <br/><br/>In the labour market and in access to welfare, one’s migration status is negatively associated with the probability of being employed and of receiving benefits [IP25–IP29] 
-          <br/><br/>Transnational families can be formed voluntarily, for lifestyle reasons, and involuntarily because of legal constraints, wars, health or financial issues [IP23–IP33] 
-          <br/><br/>Migration is only one among many mobilities that shape localities in terms of inclusion and exclusion, transnationalisation, boundaries and people’s life trajectories [IP34]
+          Temporary commercial mobility commitments in trade agreements may create privileges and disadvantages compared to traditional migration [<a :href="getLink('IP24')" target="_blank">IP24</a>]
+          <br/><br/>In the labour market and in access to welfare, one’s migration status is negatively associated with the probability of being employed and of receiving benefits [<a :href="getLink('IP25')" target="_blank">IP25</a>–<a :href="getLink('IP29')" target="_blank">IP29</a>].
+          <br/><br/>Transnational families can be formed voluntarily, for lifestyle reasons, and involuntarily because of legal constraints, wars, health or financial issues [<a :href="getLink('IP23')" target="_blank">IP23</a>–<a :href="getLink('IP33')" target="_blank">IP33</a>].
+          <br/><br/>Migration is only one among many mobilities that shape localities in terms of inclusion and exclusion, transnationalisation, boundaries and people’s life trajectories [<a :href="getLink('IP34')" target="_blank">IP34</a>].
         </div>
       </div>
       <div class="graphic" slot="graphic">
@@ -78,10 +80,10 @@
       <h3>Why does it matter?</h3>
       <div class="columns-text">
         <div>
-          <b>Reflexivity</b><br/>The way we think about “migration” and “mobility” largely depends on our preconceived – and often implicit – assumptions 
+          <b>Reflexivity</b><br/>The way we think about “migration” and “mobility” largely depends on our preconceived – and often implicit – assumptions.
         </div>
-        <div><b>Normative debates</b><br/>All uses of “migration” and “mobility” involve preferences regarding what justice and democratic legitimacy should be</div>
-        <div><b>Interdisciplinarity</b><br/>Research has traditionally studied migration and mobility as separate subjects, but we cannot fully understand one without considering the other
+        <div><b>Normative debates</b><br/>All uses of “migration” and “mobility” involve preferences regarding what justice and democratic legitimacy should be.</div>
+        <div><b>Interdisciplinarity</b><br/>Research has traditionally studied migration and mobility as separate subjects, but we cannot fully understand one without considering the other.
 </div>
       </div>
     </div>
@@ -92,7 +94,11 @@
 import "intersection-observer";
 import Scrollama from "vue-scrollama";
 import Chart from './components/Chart'
+import links from "./assets/links.json";
+import mobileMixin from './mixins/mobileMixin'
+import Vue from 'vue'
 
+Vue.mixin(mobileMixin)
 export default {
   name: "App",
   components: {
@@ -103,6 +109,11 @@ export default {
     return {
       currStep: null
     };
+  },
+  methods: {
+    getLink(key) {
+      return links[key]
+    }
   }
 };
 </script>
@@ -131,6 +142,7 @@ export default {
   padding-top: 10px
   padding-bottom 10vh
   width 75%
+
 h1
   padding 0px
   margin 0px
@@ -139,6 +151,10 @@ h1
   font-size 18px
   font-weight 500
   margin-bottom 10vh
+
+a, a:visited
+  color #000000
+
 .columns-text
   display flex
   div
@@ -151,6 +167,7 @@ h1
 .scrollama-container
   display: flex;
   flex-direction row-reverse
+
   .scrollama-graphic
     flex: 1;
     height: 80vh;

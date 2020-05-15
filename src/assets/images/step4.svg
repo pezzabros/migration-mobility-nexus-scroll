@@ -1,29 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="468" height="135.038" viewBox="0 0 468 135.038">
-  <g id="Group_48" data-name="Group 48" transform="translate(-724 -748.962)">
-    <g id="Group_36" data-name="Group 36" transform="translate(904.832 748.962)">
-      <text id="Hierarchy" transform="translate(0 27)" fill="#8eb4e3" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.001em"><tspan x="0" y="0">Hierarchy</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="658" height="143.038" viewBox="0 0 658 143.038">
+  <g id="Group_48" data-name="Group 48" transform="translate(-646 -747.962)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="658" height="143" transform="translate(646 748)" fill="#fff"/>
+    <g id="Group_36" data-name="Group 36" transform="translate(910 748.962)">
+      <text id="Hierarchy" transform="translate(0 27)" fill="#8eb4e3" font-size="30" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="-0.001em"><tspan x="0" y="0">Hierarchy</tspan></text>
     </g>
     <g id="Group_37" data-name="Group 37" transform="translate(723.671 784.135)">
-      <text id="M" transform="translate(0.329 22.865)" fill="#8eb4e3" font-size="25" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">M</tspan></text>
+      <text id="Migration_and_mobility_are_political_categories_that_legitimize_hierarchies_of_movement" data-name="Migration and mobility are political categories
+ that legitimize hierarchies of movement" transform="translate(251.329 22.865)" fill="#8eb4e3" font-size="24" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-238.4" y="0">Migration and mobility are political categories</tspan><tspan x="-209.449" y="28" xml:space="preserve"> that legitimize hierarchies of movement</tspan></text>
     </g>
-    <g id="Group_38" data-name="Group 38" transform="translate(744.633 784.135)">
-      <text id="igration_and_mobility_" data-name="igration and mobility " transform="translate(0 22)" fill="#8eb4e3" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">igration and mobility </tspan></text>
-    </g>
-    <g id="Group_39" data-name="Group 39" transform="translate(975.14 784.135)">
-      <text id="are_" data-name="are " transform="translate(0 22)" fill="#8eb4e3" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0em"><tspan x="0" y="0">are </tspan></text>
-    </g>
-    <g id="Group_40" data-name="Group 40" transform="translate(1018.478 784.135)">
-      <text id="political" transform="translate(0 22)" fill="#8eb4e3" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">political</tspan></text>
-    </g>
-    <g id="Group_42" data-name="Group 42" transform="translate(756.488 814.283)">
-      <text id="that" transform="translate(0 22)" fill="#8eb4e3" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0em"><tspan x="0" y="0">that</tspan></text>
-    </g>
-    <g id="Group_43" data-name="Group 43" transform="translate(805.4 814.283)">
-      <text id="legitimize_" data-name="legitimize " transform="translate(0 22)" fill="#8eb4e3" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">legitimize </tspan></text>
-    </g>
-    <g id="Group_44" data-name="Group 44" transform="translate(917.121 814.283)">
-      <text id="hierarchies_of_movement" data-name="hierarchies of movement" transform="translate(-0.121 22.717)" fill="#8eb4e3" font-size="25" font-family="Arial-ItalicMT, Arial" font-style="italic"><tspan x="0" y="0">hierarchies of movement</tspan></text>
-    </g>
-    <path id="Path_9" data-name="Path 9" d="M680.629-27.522V-74L349-27.522Z" transform="translate(459.776 911.522)" fill="#8eb4e3"/>
+    <path id="Path_9" data-name="Path 9" d="M680.629-27.522V-66.61L349-27.522Z" transform="translate(460 911.522)" fill="#8eb4e3"/>
   </g>
 </svg>
