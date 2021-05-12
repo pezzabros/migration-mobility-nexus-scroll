@@ -10,6 +10,14 @@
         </g>
         <g id="dotted-circle" transform="translate(384.64 -1211.5)" opacity="0">
           <path id="Path_2" data-name="Path 2" d="M0,498.5C0,223.186,223,0,498.086,0S996.172,223.186,996.172,498.5,773.171,997,498.086,997,0,773.814,0,498.5Z" fill="none" stroke="red" stroke-linejoin="round" stroke-width="15" stroke-dasharray="30 30"/>
+          <transition-group name="fade" tag="g" height="320" width="320" transform="translate(180, 180)">
+            <image
+              v-for="index in totalSteps - IMAGE_STEP_OFFSET"
+              :key="'img'+index"
+              v-show="currentStep == index + IMAGE_STEP_OFFSET"
+              :href="getImgUrl(index)"
+              height="300" width="300" transform="translate(0,0) scale(2)"/>
+          </transition-group>
         </g>
         <g id="mobility-box" x="0" y="0" transform="translate(-1900, 700) scale(2)">
           <path id="Path_3" data-name="Path 3" d="M1696-506.318h358.556V-845H1696Z" transform="translate(-291.588 -63.011)" fill="red"/>
@@ -17,13 +25,7 @@
         </g>
       </g>
     </svg>
-    <transition-group name="fade" tag="div" class="inner-image">
-      <img
-        v-for="index in totalSteps - IMAGE_STEP_OFFSET"
-        :key="'img'+index"
-        v-show="currentStep == index + IMAGE_STEP_OFFSET"
-        :src="getImgUrl(index)"/>
-    </transition-group>
+    
   </div>
 </template>
 
@@ -43,8 +45,10 @@ export default {
   },
   methods: {
     getImgUrl(index) {
-      var images = require.context('../assets/images/', false, /\.svg$/)
-      return images('./step' + index + ".svg")
+      /*var images = require.context('../assets/images/', false, /\.svg$/)
+      return images('./step' + index + ".svg")*/
+      var images = require.context('../assets/images/new', false, /\.png$/)
+      return images('./step' + index + ".png")
     },
     updateDraw() {
       let mainSVG = d3.select(this.$refs.mainSVG)
